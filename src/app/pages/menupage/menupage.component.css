@@ -1,0 +1,23 @@
+.form-control{
+    margin: 20px 0;
+}
+form{
+    margin: 50px 0px;
+    width: 80%;
+}
+img{
+    border-radius: 6px;
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+h1{
+    font-weight: bold;
+}
+
+@media screen and (max-width:600px){
+    img
+    {
+        width: 380px;
+    }
+}
